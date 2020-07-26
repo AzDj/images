@@ -13,6 +13,6 @@ jobs:
       - uses: TG908/fork-sync@v1.18
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: ${{secrets.PROJECT_OWNER}}
+          owner: ${{ secrets.PROJECT_OWNER }}
           base: master
           head: master
